@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net472;net6.0;net8.0;net9.0</TargetFrameworks>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <Version>1.0.0</Version>
+    <Authors>Yury Malich</Authors>
+    <Company></Company>
+    <Copyright></Copyright>
+    <PackageProjectUrl>https://github.com/ymalich/ValueString</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/ymalich/ValueString.git</RepositoryUrl>
+    <PackageTags>String, ValueString, SafeString </PackageTags>
+    <RootNamespace>ValueStringType</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Memory" Version="4.*" />
+  </ItemGroup>
+</Project>
